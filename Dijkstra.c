@@ -33,7 +33,7 @@ ShortestPaths dijkstra(Graph g, Vertex src) {
 	
 	// Create an empty priority queue.
 	PQ pq = PQNew();
-	// Priority = weight.
+	// Priority = weight. xd
 	// Item = vertex node.
 	PQInsert(pq, src, 0);
 	while (!PQIsEmpty(pq)) {
